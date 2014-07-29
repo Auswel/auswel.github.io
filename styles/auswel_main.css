@@ -1,0 +1,121 @@
+/* auswel_main.css
+ * Last modified on 2014.07.23
+ */
+
+@font-face {
+    font-family: mc;
+    src: url(../fonts/mc.ttf) format('truetype');
+}
+
+.navbar{
+    position:fixed;
+    top:0px;
+    left:-2px;
+    width:101%;
+    height:48px;
+    background:rgba(42, 42, 42,0.75);
+}
+#name{
+    position:fixed;
+    top:0px;
+    left:15px;
+    width:192px;
+    height:48px;
+    display:table-cell;
+    color:rgba(221, 221, 191,0);
+    vertical-align: middle;
+    text-align:center;
+    position: relative;
+    /*transform: translateY(+24);*/
+    background-image:url(../images/logo_372x162.png);
+    background-size:contain;
+    background-repeat:no-repeat;
+    
+}
+body{ 
+    background-image: url(../images/backgrounds/bg.jpg);
+    background-repeat:no-repeat;
+    background-size:100% auto;
+
+}
+body:after{
+    content: "";
+    z-index: -1;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+}
+.footer{
+    text-align:right;
+    position:absolute;
+    bottom:0px; right:0px;
+    z-index:-2;
+    width:100%;
+    height:24px;
+    background:rgba(42, 42, 42,0.75);
+}
+.infobox{
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background-color:rgba(64,64,64,0.85);
+    width:512px;
+    height:256px;
+    border-top-left-radius:15px;
+    border-bottom-right-radius:15px;
+    border-top-right-radius:50px;
+    border-bottom-left-radius:50px;
+}
+#indevinfo{
+    margin: auto;
+    margin-top:0px;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background-image:url(../images/modbanners/INDEV.png);
+    background-size:contain;
+    background-repeat:no-repeat;
+    width:512px;
+    height:144px;
+}
+#infospan{
+    position:relative;
+    top:150px;
+    text-align:center;
+    
+}
+.shine
+{
+    margin-left:25px;
+    font-family:"mc";
+    text-size:16px;
+    color: rgba(255, 255, 255, 0.75);
+    text-decoration:none;
+}
+.shine:hover{
+    background: #222 -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff)) 0 0 no-repeat;
+    -webkit-background-size: 125px;
+    -webkit-background-clip: text;
+    -webkit-animation-name: shine;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: 1;
+    text-size:18px;
+}
+#devver{
+    position:relative;
+    top:90px;
+    left:228px;
+    color:#fff;
+
+    font-family:mc;
+}
+
+@-webkit-keyframes shine
+{
+    0%
+    {
+        background-position: top left;
+    }
+    100%
+    {
+        background-position: top right;
+    }
+}
