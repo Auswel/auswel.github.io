@@ -1,4 +1,6 @@
-/* auswel_main.css
+/* SA Welsh, Austin
+ * (c) 2014
+ * auswel_main.css
  * Last modified on 2014.07.23
  */
 
@@ -33,10 +35,21 @@
     
 }
 body{ 
-    background-image: url(../images/backgrounds/bg-softfocus.jpg);
+    background-image: url(../images/backgrounds/bg.jpg);
     background-repeat:no-repeat;
     background-size:100% auto;
 
+}
+.blurbg{
+    background-image:url(../images/background/bg.jpg);
+    background-repeat:no-repeat;
+    background-size:100% auto;
+    width:100%;
+    height:100%;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+    opacity:0.500;
+    z-index:-1;
 }
 body:after{
     content: "";
