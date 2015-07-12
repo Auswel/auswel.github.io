@@ -15,7 +15,16 @@
     left:-2px;
     width:101%;
     height:48px;
-    background:rgba(42, 42, 42,0.75);
+    background:linear-gradient(to right,rgba(0,0,0,0.550) 0%,rgba(0,0,0,0) 100%);
+}
+.unavail{
+    text-align:center;
+    width:550px;height:75px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    color:#FFF;
+    font-size:25px;)
 }
 #name{
     position:fixed;
@@ -35,13 +44,13 @@
     
 }
 body{ 
-    background-image: url(../images/backgrounds/bg.jpg);
+    background-image: url(../images/backgrounds/bg2.jpg);
     background-repeat:no-repeat;
     background-size:100% auto;
 
 }
 .blurbg{
-    background-image:url(../images/background/bg.jpg);
+    background-image:url(../images/background/bg2.jpg);
     background-repeat:no-repeat;
     background-size:100% auto;
     width:100%;
